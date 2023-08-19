@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auriva</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-white dark:bg-lightblack">
+  <header id="top" class="relative">
+    <div class="container">
+      <nav class="flex justify-between items-center py-3">
+        <a class="inline-block w-[90px]" href="#">
+          <object type="image/svg+xml" data="./src/img/auriva_logo.svg" width="90" height="40"></object>
+        </a>
+        <ul class="flex gap-8">
+          <li class="">
+            <a class="inline-block font-semibold text-base text-lightblack shadow-md bg-buttongray hover:text-lightblue hover:shadow-lg transition-colors pt-2 pb-3 px-4 border-1 border-solid border-buttonborder rounded-[4px] dark:shadow-[0_0_10px_10px_rgba(255,255,255,0.2)] dark:bg-lightgray dark:text-buttonborder dark:hover:text-lightblue dark:hover:bg-buttonborder" aria-current="page" href="https://auriva.io/login">Войти</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="relative" id="hero">
+      <img class="absolute z-10 pl-[250px] rounded-2xl left-1/2 top-24 h-[99%] overflow-visible lg:hidden" src="./src/img/hero_main_theme.png" alt="Заставка">
+      <div class="container flex flex-row justify-between">
+        <div class="flex flex-col basis-1/2 w-[100%] md:basis-full">
+          <h1 class="pt-24 font-black text-lightblack text-5xl max-w-xl text-start mx-auto leading-snug lg:pt-20 lg:text-4xl md:w-full md:text-center md:text-3xl sm:text-[26px] dark:text-buttonborder">
+            Создайте чат-бот магазин в Telegram за 20 минут без программирования</h1>
+          <div>
+            <ul>
+              <li>Демонстрируйте товары</li>
+              <li>Принимайте заказы и оплату</li>
+              <li>Оформляйте доставку</li>
+            </ul>
+          </div>
+          <div class="flex justify-start md:justify-center items-center">
+            <a class="flex justify-between items-center mt-12 pb-3 px-6 pt-2 bg-lightblue shadow-customblue rounded-[4px] text-center text-xl leading-loose text-white font-semibold lg:mt-16 md:text-lg sm:text-base sm:mt-12 hover:shadow-lg hover:bg-buttonblue hover:border-buttonborderblue dark:text-buttonborder dark:hover:text-white dark:bg-buttonborderblue dark:hover:bg-lightblue"
+              href="#">
+              <div class="pr-2 sm:hidden dark:hidden">
+                <svg fill="#fff" width="26px" height="26px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z" />
+                </svg>
+              </div>
+              Посмотреть пример
+            </a>
+          </div>
+        </div>
+
+        <div class="relative flex basis-1/2 justify-center items-center md:hidden">
+          <video class="absolute z-20 p-[6px] bg-white left-3 bottom-3 lg:relative rounded-2xl border-solid border-lightgray border-1 shadow-[0_0_10px_10px_rgba(18,38,63,0.5)] dark:bg-lightgray dark:shadow-[0_0_10px_10px_rgba(255,255,255,0.2)] md:hidden" autoplay loop playsinline preload muted width="250">
+            <!-- <source src="" type="video/webm"> -->
+            <source src="./src/video/1691835442752191.mp4" type="video/mp4">
+            <img src="./src/img/video_hero_img.png" alt="Ваш браузер не поддерживает встроенные видео :(">
+          </video> 
+        </div>  
+      </div>
+    </section>
+
+    <section id="benefits">
+      <div class="container flex flex-col mt-24 lg:mt-8 sm:mt-12">
+        <h2 class="pt-24 text-center mb-12 text-[26px] text-lightblack font-black leading-7 md:text-[22px] dark:text-buttonborder animate__animated animate__fadeInUp ">Используя сервис Auriva Вы получите:</h2>
+        <ul class="flex flex-col border-[1px] border-solid border-buttongray shadow-lg">
+          <li class="flex flex-row border-b-[1px] p-6 sm:flex-col">
+            <div class="flex justify-center items-center dark:hidden">
+              <object type="image/svg+xml" data="./src/img/structure.svg" width="52" height="52"></object>
+            </div>
+            <div class="justify-center items-center hidden dark:flex">
+              <object type="image/svg+xml" data="./src/img/structure_dark.svg" width="52" height="52"></object>
+            </div>
+            <div class="pl-6 sm:pl-0">
+              <h3 class="text-[22px] font-bold text-lightblack md:text-[18px] sm:text-xl sm:text-center dark:text-buttonborder ">Удобный конструктор магазина</h3>
+              <p class="text-[20px] font-normal text-lightgray pt-2 md:text-[16px] sm:text-base sm:text-center">Для настройки магазина Вам нужно только:</p>
+              <ul class="list-circle pl-6 md:pl-5">
+                <li class="text-[20px] font-normal text-lightgray pt-2 md:text-[16px] sm:text-base sm:text-center">добавить товары с описанием и фотографиями</li>
+                <li class="text-[20px] font-normal text-lightgray pt-2 md:text-[16px] sm:text-base sm:text-center">установить цены</li>
+                <li class="text-[20px] font-normal text-lightgray pt-2 md:text-[16px] sm:text-base sm:text-center">настроить варианты оплаты и доставки</li>
+              </ul>
+            </div>
+          </li>
+          <li class="flex flex-row border-b-[1px] p-6 sm:flex-col">
+            <div class="flex justify-center items-center dark:hidden">
+              <object type="image/svg+xml" data="./src/img/integration.svg" width="52" height="52"></object>
+            </div>
+            <div class="justify-center items-center hidden dark:flex">
+              <object type="image/svg+xml" data="./src/img/integration_dark.svg" width="52" height="52"></object>
+            </div>
+            <div class="pl-6 sm:pl-0">
+              <h3 class="text-[22px] font-bold text-lightblack md:text-[18px] sm:text-xl sm:text-center dark:text-buttonborder">Чат-бот помощника в Телеграмме Ваших клиентов</h3>
+              <p class="text-[20px] font-normal text-lightgray pt-2 md:text-[16px] sm:text-base sm:text-center">Который примет за Вас заказы и оплату.</p>
+            </div>
+          </li>
+          <li class="flex flex-row border-b-[1px] p-6 sm:flex-col">
+            <div class="flex justify-center items-center dark:hidden">
+              <object type="image/svg+xml" data="./src/img/management.svg" width="52" height="52"></object>
+            </div>
+            <div class="justify-center items-center hidden dark:flex">
+              <object type="image/svg+xml" data="./src/img/management_dark.svg" width="52" height="52"></object>
+            </div>
+            <div class="pl-6 sm:pl-0">
+              <h3 class="text-[22px] font-bold text-lightblack md:text-[18px] sm:text-xl sm:text-center dark:text-buttonborder">Легкую систему управления заказами</h3>
+              <p class="text-[20px] font-normal text-lightgray pt-2 md:text-[16px] sm:text-base sm:text-center">Достаточно телефона, чтобы получать информацию о заказе в отдельной группе в telegram, где сотрудники магазина смогут их просмотреть и обработать.</p>
+            </div>
+          </li>
+          <li class="flex flex-row border-b-[1px] p-6 sm:flex-col">
+            <div class="flex justify-center items-center dark:hidden">
+              <object type="image/svg+xml" data="./src/img/payment.svg" width="52" height="52"></object>
+            </div>
+            <div class="justify-center items-center hidden dark:flex">
+              <object type="image/svg+xml" data="./src/img/payment_dark.svg" width="52" height="52"></object>
+            </div>
+            <div class="pl-6 sm:pl-0">
+              <h3 class="text-[22px] font-bold text-lightblack md:text-[18px] sm:text-xl sm:text-center dark:text-buttonborder">Гибкий приём оплаты через Telegram, со следующими вариантами оплаты:</h3>
+              <ul class="pl-6 pt-3 md:pl-5">
+                <li class="flex flex-row pb-3">
+                  <div class="flex justify-center items-center dark:hidden">
+                    <object type="image/svg+xml" data="./src/img/payments/credit_or_debit_card.svg" width="30" height="30"></object>
+                  </div>
+                  <div class="justify-center items-center hidden dark:flex">
+                    <object type="image/svg+xml" data="./src/img/payments/credit_or_debit_card_dark.svg" width="48" height="48"></object>
+                  </div>
+                  <p class="text-[20px] font-normal text-lightgray align-middle pl-3 md:text-[16px] sm:text-base sm:text-center">дебетовыми или кредитными картами</p>
+                </li>
+                <li class="flex flex-row pb-3">
+                  <div class="flex justify-center items-center dark:hidden">
+                    <object type="image/svg+xml" data="./src/img/payments/apps.svg" width="30" height="30"></object>
+                  </div>
+                  <div class="justify-center items-center hidden dark:flex">
+                    <object type="image/svg+xml" data="./src/img/payments/apps_dark.svg" width="48" height="48"></object>
+                  </div>
+                  <p class="text-[20px] font-normal text-lightgray align-middle pl-3 md:text-[16px] sm:text-base sm:text-center">по номеру телефона или пластиковой карты</p>
+                </li>
+                <li class="flex flex-row">
+                  <div class="flex justify-center items-center dark:hidden">
+                    <object type="image/svg+xml" data="./src/img/payments/cash.svg" width="30" height="30"></object>
+                  </div>
+                  <div class="justify-center items-center hidden dark:flex">
+                    <object type="image/svg+xml" data="./src/img/payments/cash_dark.svg" width="48" height="48"></object>
+                  </div>
+                  <p class="text-[20px] font-normal text-lightgray align-middle pl-3 md:text-[16px] sm:text-base sm:text-center">наличными или по кассовому терминалу</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+      <div class="p-12 flex flex-row justify-between items-center bg-buttongray mt-24 rounded-[4px] dark:bg-buttonborder sm:bg-white sm:mt-0 sm:justify-center sm:items-center sm:dark:bg-lightblack">
+        <div class="sm:hidden">
+          <h2 class="text-start text-2xl text-lightblack font-black leading-8 md:text-[22px] md:pr-2">Зарегистрируй свой telegram бот магазин прямо сейчас!</h2>
+        </div>
+
+        <div class="flex justify-center items-center">
+          <a class="flex justify-between pb-3 pt-2 px-6 bg-lightblue shadow-customblue leading-loose rounded-[4px] text-xl text-white text-center font-semibold md:text-lg sm:text-base hover:shadow-lg hover:bg-buttonblue hover:border-buttonborderblue dark:text-buttonborder dark:hover:text-white dark:bg-buttonborderblue dark:hover:bg-lightblue"
+            href="https://auriva.io/sign-up">
+            Зарегистрироваться
+          </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-24" id="howitworks">
+      <div class="container flex flex-col mt-24 sm:mt-12">
+        <h2 class="text-center mb-12 text-[26px] text-lightblack font-black leading-8 dark:text-buttonborder md:text-[24px] sm:text-[22px]">Четыре простых шага к запуску своего чат бот магазина в telegram:</h2>
+        <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+          <input class="absolute peer opacity-0" type="checkbox" name="first" id="first">
+          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="first">
+            <div class="flex justify-start items-start mr-3">
+              <svg fill="#28a8e9" width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16 3c-7.18 0-13 5.82-13 13s5.82 13 13 13 13-5.82 13-13-5.82-13-13-13zM17.757 22.536h-2.469v-9.305c-0.901 0.841-1.964 1.463-3.188 1.867v-2.234c0.644-0.211 1.344-0.612 2.099-1.202s1.273-1.278 1.555-2.064h2.003v12.938z">
+              </path>
+              </svg>
+            </div>
+            Регистрация</label>
+          <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+            <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+          </div>
+          <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+            <p class="text-[20px] font-normal text-lightgray pl-16 md:text-[16px]">
+              Зарегистрируйтесь в сервисе Auriva.
+            </p>
+          </div>
+        </div>
+          <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+            <input class="absolute peer opacity-0" type="checkbox" name="second" id="second">
+            <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="second">
+              <div class="flex justify-start items-start mr-3">
+                <svg fill="#28a8e9" width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16 3c-7.18 0-13 5.82-13 13s5.82 13 13 13 13-5.82 13-13-5.82-13-13-13zM20.342 20.426v2.297h-8.656c0.093-0.867 0.374-1.688 0.843-2.465 0.468-0.776 1.393-1.807 2.774-3.090 1.111-1.037 1.793-1.74 2.045-2.109 0.34-0.51 0.51-1.014 0.51-1.512 0-0.551-0.147-0.975-0.441-1.271s-0.7-0.444-1.219-0.444c-0.512 0-0.92 0.156-1.223 0.467s-0.478 0.827-0.523 1.549l-2.469-0.247c0.146-1.359 0.605-2.335 1.378-2.928s1.739-0.888 2.898-0.888c1.27 0 2.268 0.343 2.994 1.028s1.089 1.538 1.089 2.557c0 0.58-0.104 1.132-0.312 1.656s-0.537 1.074-0.988 1.647c-0.299 0.38-0.839 0.929-1.621 1.644-0.781 0.714-1.276 1.188-1.484 1.422s-0.376 0.463-0.505 0.686h4.91z">
+                  </path>
+                </svg>
+              </div>
+              Внесение данных по магазину</label>
+            <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+              <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+            </div>
+            <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+              <p class="text-[20px] font-normal text-lightgray pl-16 md:text-[16px]">
+                Добавьте товары с описанием и фотографиями, укажите цены, сгруппируйте товары по категориям.
+              </p>
+            </div>
+          </div>
+          <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+            <input class="absolute peer opacity-0" type="checkbox" name="third" id="third">
+            <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="third">
+              <div class="flex justify-start items-start mr-3">
+                <svg fill="#28a8e9" width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16 3c-7.18 0-13 5.82-13 13s5.82 13 13 13 13-5.82 13-13-5.82-13-13-13zM18.995 21.357c-0.826 0.797-1.854 1.194-3.086 1.194-1.166 0-2.133-0.335-2.9-1.005-0.769-0.67-1.214-1.545-1.337-2.627l2.391-0.289c0.076 0.607 0.281 1.071 0.616 1.393 0.333 0.321 0.738 0.482 1.213 0.482 0.51 0 0.939-0.194 1.289-0.582 0.348-0.387 0.522-0.909 0.522-1.566 0-0.621-0.167-1.115-0.501-1.479-0.335-0.364-0.742-0.545-1.223-0.545-0.317 0-0.695 0.062-1.136 0.184l0.272-1.997c0.668 0.018 1.178-0.127 1.529-0.434s0.526-0.715 0.526-1.224c0-0.433-0.128-0.777-0.385-1.035-0.258-0.257-0.599-0.386-1.025-0.386-0.421 0-0.779 0.146-1.077 0.438s-0.479 0.72-0.544 1.281l-2.281-0.386c0.158-0.782 0.397-1.407 0.717-1.875s0.765-0.835 1.336-1.103 1.212-0.401 1.921-0.401c1.213 0 2.186 0.387 2.918 1.161 0.604 0.633 0.905 1.348 0.905 2.145 0 1.131-0.619 2.034-1.858 2.708 0.739 0.158 1.33 0.513 1.772 1.063 0.443 0.551 0.664 1.215 0.664 1.994 0.001 1.132-0.412 2.095-1.238 2.891z">
+                  </path>
+                </svg>
+              </div>
+              Регистрация бота в telegram</label>
+            <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+              <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+            </div>
+            <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+              <p class="text-[20px] font-normal text-lightgray pl-16 md:text-[16px]">
+                Через специальный бот приложения telegram - BotFather зарегистрируйте уникальное имя для своего чат бота и далее по простой инструкции подключите бота к сервису Auriva.
+              </p>
+            </div>
+          </div>
+          <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+            <input class="absolute peer opacity-0" type="checkbox" name="fourth" id="fourth">
+            <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="fourth">
+              <div class="flex justify-start items-start mr-3">
+                <svg fill="#28a8e9" width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.359 17.583v-4.405l-2.971 4.405h2.971zM16 3c-7.18 0-13 5.82-13 13s5.82 13 13 13 13-5.82 13-13-5.82-13-13-13zM20.344 19.739h-1.594v2.595h-2.391v-2.595h-5.281v-2.147l5.598-8.196h2.074v8.187h1.594v2.156z">
+                  </path>
+                </svg>
+              </div>
+              Настройте варианты оплаты</label>
+            <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+              <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+            </div>
+            <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+              <p class="text-[20px] font-normal text-lightgray pl-16 md:text-[16px]">
+                Оформите варианты оплаты, пройдя простой процесс по инструкции.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="flex justify-center items-center">
+          <a class="flex justify-between mt-12 pb-3 pt-2 px-6 bg-lightblue shadow-md leading-loose rounded-[4px] text-center text-xl text-white font-semibold lg:mt-12 md:text-lg sm:text-base hover:shadow-lg hover:bg-buttonblue hover:border-buttonborderblue dark:text-buttonborder dark:hover:text-white dark:bg-buttonborderblue dark:hover:bg-lightblue" href="https://auriva.io/sign-up">
+            Зарегистрироваться
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="info">
+      <div class="container flex flex-col mb-24 justify-center items-center">
+        <h2 class="text-center mb-12 text-[26px] text-lightblack font-black leading-8 md:mb-5 md:text-[24px] sm:text-[22px] dark:text-buttonborder">Проинформируйте своих клиентов о своём чат-бот магазине</h2>
+        <ul class="pb-12 md:max-w-lg">
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/map.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/map_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Разместите ссылку на бота на своем сайте, 2гис или в социальных сетях</p>
+          </li>
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/telegram_logo.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/telegram_logo_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Добавьте кнопку "Купить в Telegram" на своей странице товара</p>
+          </li>
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/letter.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/letter_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Рекламируйте бота в электронных письмах или рассылках</p>
+          </li>
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/speak.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/speak_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Рассказывайте о боте в магазине или на кассе</p>
+          </li>
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/qr_code.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/qr_code_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Используйте QR-коды для быстрого доступа к боту</p>
+          </li>
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/percent.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/percent_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Предоставьте скидки или бонусы при заказе через телеграм бот</p>
+          </li>
+          <li class="flex flex-row justify-center items-center">
+            <object class="dark:hidden" type="image/svg+xml" data="./src/img/info/brochure.svg" width="40"></object>
+            <object class="hidden dark:inline" type="image/svg+xml" data="./src/img/info/brochure_dark.svg" width="40"></object>
+            <p class="text-[20px] font-normal text-lightgray pl-4 self-center py-3 max-w-3xl w-[100%] md:text-[16px]">Объявляйте о боте на флаерах или в рекламных материалах</p>
+          </li>
+        </ul>
+        <div class="flex justify-center items-center">
+          <a class="flex justify-between pb-3 pt-2 px-6 bg-lightblue shadow-md leading-loose rounded-[4px] text-xl text-white text-center font-semibold md:text-lg sm:text-base hover:shadow-lg hover:bg-buttonblue hover:border-buttonborderblue dark:text-buttonborder dark:hover:text-white dark:bg-buttonborderblue dark:hover:bg-lightblue"
+            href="https://auriva.io/sign-up">
+            Зарегистрироваться
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="bg-buttongray pt-8 pb-32 md:pb-16 dark:bg-buttonborder">
+      <div class="container flex flex-col mt-24 bg-buttongray dark:bg-buttonborder lg:mt-0">
+        <h2 class="text-start mb-12 text-[26px] text-lightblack font-black leading-8 md:text-[24px] sm:text-center sm:text-[22px]">Часто задаваемые вопросы</h2>
+        <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+          <input class="absolute peer opacity-0" type="checkbox" name="first" id="first">
+          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="first">Это безопасно?</label>
+          <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+            <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+          </div>
+          <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+            <p class="text-[20px] font-normal text-lightgray pt-4 md:text-[16px]">
+              Да, безопасно. Взаимодействие между пользователем, сервисом Auriva и Telegram осуществляется с использованием https протокола, который поддерживает безопасный способ передачи данных, посредством шифрования. Пароли пользователя хранятся в зашифрованном виде. Информация о платежных картах недоступна сервису Auriva и нигде не cохраняется.
+            </p>
+          </div>
+        </div>
+        <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+          <input class="absolute peer opacity-0" type="checkbox" name="second" id="second">
+          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="second">Для каких товаров подходит сервис Auriva?</label>
+          <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+            <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+          </div>
+          <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+            <p class="text-[20px] font-normal text-lightgray pt-4 md:text-[16px]">
+              Сервис подходит для размещения любых товаров. Чат-бот может быть создан как для крупных интернет-магазинов, так и для небольших бизнесов.
+            </p>
+          </div>
+        </div>
+        <div class="relative border-t-[1px] border-buttonborder border-solid py-6">
+          <input class="absolute peer opacity-0" type="checkbox" name="third" id="third">
+          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px]" for="third">Сколько стоит?</label>
+          <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+            <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
+          </div>
+          <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+            <p class="text-[20px] font-normal text-lightgray pt-4 md:text-[16px]">
+              В настоящий момент сервис предоставляется бесплатно. В будущем сервис останется бесплатным для чат-ботов с небольшим
+              количеством оформленных заказов. Для остальных чат-ботов будет браться ежемесячная абонентская плата в зависимости от количества заказов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container md:hidden">
+        <div class="flex flex-row justify-between py-5 mb-32 mx-10 -mt-10 bg-white shadow-lg border-solid border-[1px] border-buttonborder rounded-[4px] z-20 dark:bg-buttonborder dark:border-solid dark:border-[1px] dark:border-lightblack dark:shadow-[0_0_10px_10px_rgba(255,255,255,0.2)]">
+          <div class="p-12">
+            <h2 class="text-start text-[26px] text-lightblack font-black leading-8">Зарегистрируйтесь, чтобы получить доступ к чат-боту бесплатно!</h2>
+          </div>
+          <div class="flex justify-center items-center pr-12">
+            <a class="flex justify-between pb-3 pt-2 px-6 bg-lightblue text-center shadow-md leading-loose rounded-[4px] text-xl text-white font-semibold lg:max-w-[250px] md:text-lg sm:text-base hover:shadow-lg hover:bg-buttonblue hover:border-buttonborderblue dark:text-buttonborder dark:hover:text-white dark:bg-buttonborderblue dark:hover:bg-lightblue"
+              href="https://auriva.io/sign-up">
+              Зарегистрироваться
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t-[1px] border-solid border-buttonborder">
+    <div class="container flex flex-row justify-between pt-12 pb-6">
+      <a class="inline-block self-center" href="#top">
+        <object type="image/svg+xml" data="./src/img/auriva_logo.svg" width="90" height="40"></object>
+      </a>
+      <!-- <div class="flex flex-row gap-5">
+        <a class="hover:opacity-75" href="#">
+          <object type="image/svg+xml" data="./src/img/telegram_ao28v11g7j7j.svg" width="48" height="48"></object>
+        </a>
+        <a class="hover:opacity-75" href="#">
+          <object type="image/svg+xml" data="./src/img/whatsapp_ateaaq3kn8am.svg" width="48" height="48"></object>
+        </a>
+      </div> -->
+      <div class="flex flex-col justify-center items-start">
+        <h4 class="flex text-base text-left text-lightgray font-medium">Контакты</h4>
+        <a class="inline-block text-lightblue font-normal text-base text-center hover:underline" href="mailto:support@auriva.io">support@auriva.io</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>  
+</body>
+</html>
